@@ -1,1 +1,1 @@
-# github-sync
+# GitHub Multi CLI
