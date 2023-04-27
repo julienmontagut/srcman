@@ -2,10 +2,10 @@ use std::{fs::File, io::Write, process::exit};
 
 use clap::{arg, Command};
 
-use crate::gh::{client::Client, data::User};
-use crate::gh::data::Repository;
+use crate::github::{client::Client, data::User};
+use crate::github::data::Repository;
 
-mod gh;
+mod github;
 
 fn main() {
     let matches = Command::new(env!("CARGO_PKG_NAME"))
